@@ -25,8 +25,6 @@ class CurrentWeather {
     @JsonProperty("precip")
     private double precip;
 
-    // other fields, getters, and setters as needed
-
     public double getTemperature() {
         return temperature;
     }
